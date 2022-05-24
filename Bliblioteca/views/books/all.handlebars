@@ -1,0 +1,9 @@
+<h1>Veja a lista de Livros mais vendidos:</h1>
+<div class="books">
+    {{#each books}}
+    <div class="book">
+        <h3>{{this.name}}</h3>
+        <p>R${{this.price}}</p>
+    </div>
+    {{/each}}
+</div>
